@@ -1,14 +1,8 @@
 let $ = document;
-const submit = $.querySelector(".submit");
-const password = $.querySelector(".pass");
-const rePassword = $.querySelector(".re-pass"); 
-const email = $.querySelector(".email"); 
-const checked = $.querySelector(".check-box");
+const email = $.querySelector("#email"); 
+const password = $.querySelector("#password");
+console.log(password.value)
 
-
-let emailvalidate = false;
-let passwordvalidate = false;
-let repasswordvalidate = false;
 
 email.addEventListener('input',emailValidation);
 
@@ -44,30 +38,3 @@ function passwordElem(){
     passwordvalidate = false;    
     }
 }
-
-rePassword.addEventListener('input', repasswordElem)
-function repasswordElem(){
-    if(password.value === rePassword.value){
-        rePassword.style.border = '3px solid green'
-        repasswordvalidate = true;
-    }else{
-        rePassword.style.border = '3px solid red'
-        repasswordvalidate = false ;
-    }
-
-}
-
-submit.addEventListener('click',submitElem);
-function submitElem(){
-    if(emailvalidate && passwordvalidate && repasswordvalidate && $.querySelector(".check-box:checked")){
-    alert('sign up')
-    }else{
-        alert('please nedonam chishi')
-    }
-
-}
-
-
-
-
-    

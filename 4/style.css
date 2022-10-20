@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    margin: 2rem auto;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr)2fr;
+    grid-template-rows: repeat(4 ,1fr);
+    grid-gap: 2px;
+    text-align: center;
+}
+section{
+    background-color: white;
+}
+.sign-up ,.submit{
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3px;
+}
+.email , .password{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+}
+.input{
+    width: 90%;
+    margin-top: 10px;
+}
+.email-input , .pass-input{
+ align-content: center;
+ justify-content: center;
+}
+button{
+    padding: 5px 10px;
+}
+

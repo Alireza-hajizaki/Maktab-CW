@@ -13,6 +13,10 @@
 .container{
     background-color: #DE8704;
     width: 100%;
+    border: none;
+}
+.th{
+    border: none;
 }
 tr{
     border: none;
@@ -33,6 +37,7 @@ table{
     width: 100%;
     height: 100%;
     border: none;
+    border-spacing: 0;
 }
 .submit {
     padding: 10px 15px;
