@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="item section1">
+        <label>First name</label>
+        <input type="text" placeholder="FirstName" id="firstname" />
+      </div>
+
+      <div class="item section2">
+        <label>last name</label>
+        <input type="text" placeholder="LastName" id="lastname" />
+      </div>
+
+      <div class="item section3">
+        <label>E-Mail Address</label>
+        <input type="email" placeholder="E-mail Address" id="email" />
+      </div>
+
+      <div class="item section4">
+        <label>Phone</label>
+        <input type="tel" placeholder="Phone Number" id="phone" />
+      </div>
+      <div class="item section5">
+        <button type="submit" id="sign">sign up</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <table id="users-table">
+        <thead>
+          <th>Id</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>E-Mail Address</th>
+          <th>Phone Number</th>
+        </thead>
+      </table>
+      <div class="button">
+        <button id="btn"> ADD NEW USER </button>
+    </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

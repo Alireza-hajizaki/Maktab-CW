@@ -1,0 +1,27 @@
+.main{
+    width: 100%;
+    
+}
+table{
+    border:  2px solid #000;
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    background-color: #06283D;
+    color: white;
+
+}
+th , td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+td{
+    background-color: #256D85;
+}
+.button{
+    width: 100%;
+}
+#btn{
+    margin: 16px auto;
+    display: block;
+}
