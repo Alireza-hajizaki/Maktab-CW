@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans;
+}
+.container{
+   width: 100%;
+   height: 100%;
+}
+.Add-person{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    gap: 8px;
+    width: 300px;
+    height: 180px;
+    background-color: #4b7fc7;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+.add-btn{
+    width: 30%;
+    padding: 5px;
+    cursor: pointer;
+}
+.input-btn{
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.Table{
+    border-top: 1px solid black;
+    padding: 10px;
+}
+.delete-btn{
+    padding: 10px;
+    background-color: #4b7fc7;
+    color: white;
+    border: 1px solid #4b7fc7;
+    cursor: pointer;
+}
+#table{
+    border: 1px solid black;
+    margin: 2rem auto;
+}
+tr , td ,th , thead{
+    border: 1px solid black;
+    padding: 5px;
+}
+td >  button{
+    padding: 0 5px;
+    margin: 0 3px
+}

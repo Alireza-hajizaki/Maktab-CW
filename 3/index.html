@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Add-person">
+        <label> First Name</label>
+        <input type="text" class="input-btn username">
+        <label> Last Name</label>
+        <input type="text" class="input-btn lastname">
+        <button type="submit" class="add-btn">Add</button>
+        </div>
+
+        <div class="Table">
+            <button  class="delete-btn">Delete</button>
+            <table id="table">
+                <thead>
+                    <th id="chekedAll"><i class="bi bi-square"></i></th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Operations</th>
+                </thead>
+                <tbody id="tbody-elem">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
